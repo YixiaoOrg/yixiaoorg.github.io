@@ -1114,6 +1114,7 @@ pre code {
   border: 2px solid #333;
   max-width: 96px;
   padding: 2px;
+  border-radius: 50%;
   transition: transform 1s ease-out;
 }
 .site-author-image:hover {
@@ -2375,7 +2376,7 @@ hr {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #37fffa;
+  background: #dfffa6;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
