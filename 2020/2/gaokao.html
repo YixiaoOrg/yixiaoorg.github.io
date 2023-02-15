@@ -379,7 +379,7 @@
 document.addEventListener('page:loaded', () => {
   NexT.utils.loadComments(CONFIG.twikoo.el)
     .then(() => NexT.utils.getScript(
-      CONFIG.twikoo.jsUrl || 'https://cdn.jsdelivr.net/npm/twikoo@1.6.9/dist/twikoo.min.js',
+      CONFIG.twikoo.jsUrl || 'https://cdn.jsdelivr.net/npm/twikoo@1.6.10/dist/twikoo.min.js',
       { condition: window.twikoo }
     ))
     .then(() => {
